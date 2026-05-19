@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-const GEMINI_KEY = "AIzaSyCWmESPpz1MC80Nf9dHOAJQ5HTUQNMfoOs";
+const GEMINI_KEY = "AIzaSyBmmb6fWZAejkhrulqE8ljrTZBf4xrKeIs";
 const GEMINI_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_KEY}`;
-
 const moods = [
   {
     label: "Happy", emoji: "😊", gradient: "from-yellow-400 to-orange-400",
@@ -176,7 +175,7 @@ export default function App() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <div className="flex items-center gap-3">
-  <svg width="44" height="44" viewBox="0 0 100 100">
+<svg width="44" height="44" viewBox="0 0 100 100">
   <path d="M50 85 C30 85 10 72 8 55 C6 42 13 30 20 25 C15 15 17 3 25 0 C33 -3 43 2 48 10 L48 85Z" fill="#a855f7"/>
   <path d="M50 85 C70 85 90 72 92 55 C94 42 87 30 80 25 C85 15 83 3 75 0 C67 -3 57 2 52 10 L52 85Z" fill="#ec4899"/>
   <line x1="50" y1="8" x2="50" y2="85" stroke="white" stroke-width="3" stroke-dasharray="5,4"/>
